@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+}
+/* header */
+header{
+    text-align: center;
+    color: white;
+}
+
+header p{
+    width:40%;
+    display: block;
+    margin: 0px auto;
+    font-size: 0.6em;
+}
+
+h1:hover{
+    color: black;
+}
+
+/* main */
+ol{
+    width:40%;
+    display: block;
+    margin: 8px auto;
+    font-size: 0.6em;
+    font-weight: 600;
+}
+
+img{
+    width: 20%;
+    display: block;
+    margin: 0px auto;
+}
+main p{
+    width: 40%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+/* footer */
+
+footer p{
+    width: 45%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: 600;
+}
+

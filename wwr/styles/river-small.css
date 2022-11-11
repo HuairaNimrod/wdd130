@@ -1,0 +1,33 @@
+@media screen and (max-width: 900px) {
+    .main-grid {
+        display: block;
+        height: auto;
+    }
+
+    main section.river h2{
+        text-align: center;
+    }
+    main section.river img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    main section.river p{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    
+    footer {
+        margin-top: 25px;
+    }
+}
+      

@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+body div.layout{
+    background-color: white; width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+main h5{
+    color: rgb(53, 65, 143);
+}
+
+main p {
+    color: rgb(114, 109, 109);
+    padding: 5px 35px;
+}
+
+
+header img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    display: grid;
+    background-color: rgb(53, 65, 143);
+    color: white;
+    grid-template-columns: 100px auto 100px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+body footer div{
+    border: 1px solid rgba(182, 169, 169, 0.8);
+}
+
+body footer div:nth-child(1){
+    border-radius: 0px 0px 0px 10px;
+}
+body footer div:nth-child(3){
+    border-radius: 0px 0px 10px 0px;
+}

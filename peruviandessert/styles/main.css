@@ -1,0 +1,54 @@
+
+/* This allows to set a border to all the elements */
+/* * {
+    border: 2px solid blue;
+} */
+
+
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#active {
+    background-color: white;
+}
+
+h1 {
+    /* block center */
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+
+img {
+    
+    /* inline center */
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+nav, footer {
+
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}

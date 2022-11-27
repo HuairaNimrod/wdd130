@@ -1,54 +1,142 @@
-
-/* This allows to set a border to all the elements */
-/* * {
-    border: 2px solid blue;
-} */
-
-
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Rajdhani&display=swap');
+:root {
+  /* change the values below to your chosen font(s) */
+  --heading-font:  'Chakra Petch', sans-serif;
+  --paragraph-font: 'Rajdhani', sans-serif;
 }
 
-#active {
-    background-color: white;
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--paragraph-font);
 }
 
-h1 {
-    /* block center */
-    text-align: center;
+/* header */
+header{
+    display: grid;
+    grid-template-columns: 180px auto;
+    background-color: #D91023;
+    color: white;
 }
-nav, footer {
-    text-align: center;
-}
-
-img {
-    
-    /* inline center */
-    display: block;
-    margin: 0 auto;
-}
-
-a {
+img#logo{
+    margin: 15px auto;
+    width: 70px;
+ }
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    line-height: 3em;
     font-size: 1.5em;
 }
-
-a:hover {
+nav a {
+    text-decoration: none;
+    padding:1em;
+    min-width: 120px;
+    text-align: center;
+}
+nav a:link, nav a:visited {
+    color: white;
+}
+nav a:hover{
     background-color: white;
+    color: #D91023;;   
+}
+/* header end */
+/* main */
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-main p {
+div.images img{
     width: 80%;
-    margin: 50px auto;
-    text-align: center;
+    margin: 2em auto;
 }
 
-nav, footer {
-
-    padding: 10px;
+.text-main p{
+    margin: 2em;
+    font-size: 1.5em;
 }
 
-footer p {
-    font-size: 20px;
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: solid 1px #22577A;
+    margin: 3em;
+    border-radius: 10px;
+}
+
+.banner img{
+    width: 90%;
+    grid-area: 1/1/3/2;
+    margin: 2em auto;
+}
+.banner p{
+    grid-area: 1/2/2/3;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 2em;
+
+}
+.banner div{
+    grid-area: 2/2/3/3;
+    width: 50%;
+    height: 50px;
     margin: 20px auto;
 }
+.banner div{
+    background-color: #22577A;
+    border-radius: 15px;
+    text-align: center;
+    padding-top:15px ;
+    font-size: 1.5em;
+}
+.banner div a{
+    text-decoration: none;
+    color: white;
+}
+.banner div a:hover{
+    text-decoration: none;
+}
+.banner div:hover{
+    background-color: #D91023;
+}
+
+
+/* main end */
+
+/* footer  */
+
+footer{
+    display: grid;;
+    grid-template-columns: auto auto auto;
+    background-color: #D91023;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+footer a:nth-child(1){
+    padding:1em;
+    margin: 0 auto;
+}
+footer a{
+    padding:1em;
+    text-decoration: none;
+    margin-right: auto;
+    color: white;
+}
+footer div{
+    padding:1em;
+    margin-left:  auto;
+}
+div.social a {
+    text-decoration: none;
+    padding:1em;
+}
+
+/* footer end  */

@@ -15,16 +15,29 @@ section{
 .instructions{
     padding-left: 20px;
 }
-
-.image-item{
-    width: 70%;
-    margin: 20px auto;
-    border: 1px blue solid;
-    
-}
 .image-item img{
     width: 100%;
 }
 
-
 /* how to */
+
+.image-item {
+        position: relative; 
+        max-width: 60%; /* Maximum width */
+        margin: 50px auto; /* Center it */
+      }
+.image-item .text-item {
+        position: absolute; /* Position the background text */
+        bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: 100%; /* Full width */
+        padding: 10px; /* Some padding */
+        text-align: right;
+      }
+
+.text-item h4{
+    margin: 0;
+    color: white;
+}

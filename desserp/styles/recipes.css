@@ -1,0 +1,30 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:20px;
+}
+.ingredients-list{
+    padding-left: 20px;
+}
+.recipe-description img{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+.instructions{
+    padding-left: 20px;
+}
+
+.image-item{
+    width: 70%;
+    margin: 20px auto;
+    border: 1px blue solid;
+    
+}
+.image-item img{
+    width: 100%;
+}
+
+
+/* how to */
